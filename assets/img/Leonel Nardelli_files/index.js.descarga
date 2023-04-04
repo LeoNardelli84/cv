@@ -1,0 +1,17 @@
+
+AOS.init();
+
+
+
+
+$(window).scroll(function (event) {
+
+    var scroll = $(window).scrollTop();
+    
+    $(".info").removeClass("invisible");
+    $(".info").addClass("animate__zoomIn");
+    $(".parrafo").addClass("animate__zoomIn");
+    $(".img-fondo").addClass("animate__bounceInRight");
+
+});
+
