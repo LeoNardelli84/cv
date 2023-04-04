@@ -44,7 +44,8 @@ nav ul li a{
     margin: 0px 5px 0px 5px!important;
     color: black !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 400;
+    font-weight: bolder;
+
 }
 
 .info, .info2{
@@ -78,9 +79,27 @@ nav ul li a{
 }
 .info2 img{
     width: 50%;
+    animation-duration: 3s;
 }
 
-
-
-
+.foto-section3{
+    animation-duration: 3s;
+}
+.foto-section3 img {
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    height: 90px;
+    background-color: 59656F;
+}
+.footer .redes{
+    display: flex;
+    justify-content:center;
+    
+}
+.redes img{
+    width: 50px;
+    margin: 20px !important;
+}
 /* Keyframes*/
