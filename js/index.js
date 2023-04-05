@@ -15,15 +15,20 @@ $(window).scroll(function (event) {
         case 100: 
             //codigo
             break;
-        case 120: 
+        case 120, 121, 122, 123, 124, 125, 126,
+             127, 128, 129, 130: 
             $(".info2").removeClass("invisible");
             $(".info2").addClass("animate__bounceInLeft");
+           
+            //aca testeo lo que hace la variable scroll
             console.log(scroll);
             break;
-        case 780:
-             $(".foto-section3").addClass("animate__bounceInRight");
-            //codigo
-            break;
+
     }//end switch scroll
     
+
 });
+
+
+
+
