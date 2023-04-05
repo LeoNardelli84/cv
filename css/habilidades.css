@@ -1,0 +1,43 @@
+
+.bg-video{
+    height: 50vh;
+}
+
+.progress {
+    margin-bottom:10px !important;
+    height: 30px !important;
+}
+.barras{
+    width: 80vw;
+    
+    
+}
+.barra-1 {
+    animation-duration: 3s;
+}
+.barra-2{
+    animation-duration: 3.1s;
+}
+.barra-3{
+    animation-duration: 3.2s;
+}
+.barra-4{
+    animation-duration: 3.3s;
+}
+.barra-5{
+    animation-duration: 3.4s;
+}
+.barra-6{
+    animation-duration: 3.5s;
+}
+.barra-7{
+    animation-duration: 3.6s;
+}
+.barra-8{
+    animation-duration: 3.7s;
+}
+
+.habs{
+    /*transform: rotate(-90deg);*/ 
+    width: 80vw; 
+}

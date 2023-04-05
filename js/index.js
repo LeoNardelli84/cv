@@ -18,8 +18,7 @@ $(window).scroll(function (event) {
         case 100: 
             //codigo
             break;
-        case 120, 121, 122, 123, 124, 125, 126,
-             127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140: 
+        case 120, 121, 122, 123, 124, 125, 126: 
             $(".info2").removeClass("invisible");
             $(".info2").addClass("animate__bounceInLeft");
            
