@@ -1,6 +1,10 @@
 
 .bg-video{
     height: 50vh;
+
+}
+.bg-video video{
+
 }
 
 .progress {
@@ -14,6 +18,9 @@
 }
 .barra-1 {
     animation-duration: 3s;
+}
+.barra-1 h3{
+    color: beige;
 }
 .barra-2{
     animation-duration: 3.1s;

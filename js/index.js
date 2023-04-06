@@ -11,22 +11,13 @@ $(window).scroll(function (event) {
     $(".info").addClass("animate__bounceIn");
     $(".parrafo").addClass("animate__zoomIn");
     
-    switch (scroll){
-        case 80:
-            //codigo aca;
-            break;
-        case 100: 
-            //codigo
-            break;
-        case 120, 121, 122, 123, 124, 125, 126: 
-            $(".info2").removeClass("invisible");
-            $(".info2").addClass("animate__bounceInLeft");
-           
-            //aca testeo lo que hace la variable scroll
-            //console.log(scroll);
-            break;
-
-    }//end switch scroll
+    if(scroll >= 140){
+        $(".info2").removeClass("invisible");
+        $(".info2").addClass("animate__bounceInLeft");
+    }
+    if(scroll >= 600){
+        $(".foto-section3").addClass("animate__flipInY");
+    }
     
 
 });

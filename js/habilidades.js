@@ -21,7 +21,9 @@ $(".barra-1").click(function(){
     /*
     cuando hacen click en el div barras, 
     */
-    var barra = $(".barra-1").children();
-    barra.css('background-color', 'red');
+    var barra1 = $(".barra-1").children();
+    
+    barra1.html("<h3>HTML5</h3>");
+    barra1.css('background-color', 'red');
 });
 
