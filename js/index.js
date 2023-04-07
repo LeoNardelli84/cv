@@ -19,7 +19,6 @@ $(window).scroll(function (event) {
         $(".foto-section3").addClass("animate__flipInY");
     }
     
-
 });
 
 

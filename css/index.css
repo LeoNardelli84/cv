@@ -1,9 +1,12 @@
 /*reset*/ 
 
 *{
-    margin: 0% !important;
-   padding: 0% !important;
+    margin: 0%;
+   padding: 0%;
     box-sizing: border-box;
+}
+.container-fluid{
+    padding: 0px !important;
 }
 
 header{
@@ -40,12 +43,12 @@ nav ul{
     display: flex !important;
     justify-content: center;
 }
+
 nav ul li a{
-    margin: 0px 5px 0px 5px!important;
     color: black !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
-
+    padding: 5px 5px !important;
 }
 
 .info, .info2{

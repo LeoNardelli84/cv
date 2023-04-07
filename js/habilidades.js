@@ -15,12 +15,11 @@ function obtenerFecha(){
   }
 var fecha = obtenerFecha();
 
-$(".bg-video").html(fecha);
+//$(".bg-video").html(fecha);
+
 
 $(".barra-1").click(function(){
-    /*
-    cuando hacen click en el div barras, 
-    */
+
     var barra1 = $(".barra-1").children();
     
     barra1.html("<h3>HTML5</h3>");
