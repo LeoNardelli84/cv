@@ -13,16 +13,58 @@ function obtenerFecha(){
     return ( dias[num_dia] + " " + dia + " de " + meses[mes] + " de " + anio);
 
   }
-var fecha = obtenerFecha();
+//var fecha = obtenerFecha();
 
 //$(".bg-video").html(fecha);
 
 
-$(".barra-1").click(function(){
+$(".progress").click(function(){
 
-    var barra1 = $(".barra-1").children();
-    
-    barra1.html("<h3>HTML5</h3>");
-    barra1.css('background-color', 'red');
+  var barra = $(this).children();
+  var hab = barra.children('h3').html()
+ 
+
+  switch (hab) {
+    case 'HTML 5':
+      barra.css('width', '98%')
+      break;
+    case 'Javascript':
+      barra.css('width', '75%')
+      break;
+    case 'CSS':
+      barra.css('width', '95%')
+      break;
+    case 'Bootstrap':
+      barra.css('width', '90%')
+      break;
+    case 'Jquery':
+      barra.css('width', '70%')
+      break;
+    case 'Git':
+      barra.css('width', '60%')
+      break;
+    case 'Github':
+      barra.css('width', '80%')
+      break;
+    case 'Linux':
+      barra.css('width', '40%')
+      break;
+  }
+
 });
+
+/*
+$(window).scroll(function(){
+
+  var scroll = $(window).scrollTop();
+  var opacity = (scroll) + "%";
+
+  if (scroll > 0){
+    $(".barras").css( "opacity", opacity);
+  }
+  
+  console.log(scroll)
+  console.log(opacity)
+});
+*/
 
