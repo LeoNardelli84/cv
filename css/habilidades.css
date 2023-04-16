@@ -9,7 +9,7 @@
 
 .bg-video{
     height: 50vh;
-    background-attachment: fixed;
+   
 }
 
 
@@ -25,8 +25,9 @@
 
 .progress {
     margin-bottom:10px !important;
-    height: 30px !important;
+    height: 35px !important;
 }
+
 .barras{
     padding: 20px;
 }

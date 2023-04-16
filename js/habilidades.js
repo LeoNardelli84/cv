@@ -23,7 +23,6 @@ $(".progress").click(function(){
   var barra = $(this).children();
   var hab = barra.children('h3').html()
  
-
   switch (hab) {
     case 'HTML 5':
       barra.css('width', '98%')
@@ -47,7 +46,7 @@ $(".progress").click(function(){
       barra.css('width', '80%')
       break;
     case 'Linux':
-      barra.css('width', '40%')
+      barra.css('width', '45%')
       break;
   }
 

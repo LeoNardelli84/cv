@@ -14,6 +14,7 @@ $(window).scroll(function (event) {
     if(scroll >= 140){
         $(".info2").removeClass("invisible");
         $(".info2").addClass("animate__bounceInLeft");
+        $("#flecha").addClass("invisible");
     }
     if(scroll >= 600){
         $(".foto-section3").addClass("animate__flipInY");
@@ -21,6 +22,14 @@ $(window).scroll(function (event) {
     
 });
 
-
+$("#flecha").click(function(){
+    $("html, body").animate({
+        scrollTop: 250
+    }, 800);
+    $(".arrow-img").addClass("animate__backOutDown");
+    $("#flecha").addClass("invisible")
+    
+    
+});
 
 
