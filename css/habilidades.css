@@ -6,7 +6,9 @@
 .container-fluid{
     padding: 0px !important;
 }
-
+header a{
+    margin: 20px;
+}
 .bg-video{
     height: 50vh;
    

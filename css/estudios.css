@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px !important;
 }
+header a{
+    margin: 20px;
+}
 
 /*Certificados*/
 .certificados img{

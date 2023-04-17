@@ -2,12 +2,38 @@
     margin: 0px;
     padding: 0px !important;
 }
+header a{
+    margin: 20px;
+}
 /*form*/
+
 form{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form{
+    margin: 50px;
+}
+.form input {
+    margin-bottom: 10px;
+    text-align: center;
+}
+textarea{
+    margin-bottom: 10px;
+    text-align: center;
     
 }
-
+#btn-enviar{
+    height: 50px;
+}
+.img-contacto{
+    width: 100vw;
+    margin-bottom: 50px;
+}
+.img-contacto img{
+    width: 100%;
+}
 /*footer*/
 .footer{
     width: 100%;
