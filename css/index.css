@@ -75,8 +75,10 @@ nav ul li a{
 }
 .info2 img{
     width: 100%;
+    height: 100%;
     animation-duration: 3s;
 }
+
 
 .foto-section3{
     animation-duration: 3s;
@@ -87,6 +89,8 @@ nav ul li a{
 .foto-section3 img {
     width: 100px;
 }
+
+
 .arrow{
     height: 30px;
     display: flex;
