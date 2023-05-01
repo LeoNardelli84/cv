@@ -10,6 +10,14 @@
 .container-fluid{
     padding: 0px !important;
 }
+
+h2, h4, h5{
+    font-family: 'start';
+    font-weight: 400;
+}
+h5{
+    margin: 0 !important;
+}
 header a{
     margin: 20px;
 }
@@ -35,7 +43,8 @@ header a{
 .txt-video p{
     text-shadow: 3px 3px 5px white;
     font-family: 'start';
-    font-weight: 400;
+    font-weight: 300;
+    color: black
 }
 
 .progress {
@@ -74,6 +83,10 @@ header a{
     animation-duration: 3.7s;
 }
 
+.fecha p{
+    font-family: 'start';
+    font-size: 14px;
+}
 /*footer*/
 .footer{
     width: 100%;

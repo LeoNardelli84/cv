@@ -26,13 +26,13 @@ function obtenerFecha(){
 
   }
 
-//var fecha = obtenerFecha();
-//console.log(fecha);
+var fecha = obtenerFecha();
+$("#fecha").html(fecha);
 
 $(".progress").click(function(){
 
   var barra = $(this).children();
-  var hab = barra.children('h3').html()
+  var hab = barra.children('h5').html()
  
   switch (hab) {
     case 'HTML 5':
