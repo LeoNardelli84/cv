@@ -10,10 +10,15 @@ header a{
 form{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    
 }
 .form{
-    margin: 50px;
+   max-width: 500px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px !important;
 }
 .form input {
     margin-bottom: 10px;
@@ -26,13 +31,20 @@ textarea{
 }
 #btn-enviar{
     height: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
 }
 .img-contacto{
     width: 100vw;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px !important;
 }
 .img-contacto img{
     width: 100%;
+    max-width: 500px;
 }
 /*footer*/
 .footer{

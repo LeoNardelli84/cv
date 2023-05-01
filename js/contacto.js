@@ -8,7 +8,7 @@ $("#btn-enviar").click(function(e){
     if (nombre == "") {
         alert("por favor escribe tu nombre")
     } else if (comentarios == ""){
-        alert("escribe un comentario")
+        alert(" Por favor escribe un comentario")
     } else{
         whatsapp += "Hola!%20mi%20nombre%20es%20" + nombre + ",%20" + comentarios 
         $(location).attr('href', whatsapp)

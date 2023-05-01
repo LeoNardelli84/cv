@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'start';
+    src: url('../assets/fonts/PressStart2P-vaV7.ttf');
+}
 * {
     margin: 0;
     padding: 0;
@@ -20,11 +24,18 @@ header a{
 
 .bg-video video{
     width: 380px;
-
+    opacity: 50%;
 }
 .txt-video {
+    z-index: 1;
     position: absolute;
-    width: 50vw;
+    width: 100vw;
+    padding: 10px;
+}
+.txt-video p{
+    text-shadow: 3px 3px 5px white;
+    font-family: 'start';
+    font-weight: 400;
 }
 
 .progress {
@@ -33,7 +44,7 @@ header a{
 }
 
 .barras{
-    padding: 20px;
+    padding: 30px;
 }
 .barra-1 {
     animation-duration: 3s;

@@ -1,5 +1,17 @@
 AOS.init();
 
+ //tiped.js
+
+  
+  
+ var typed = new Typed("#txt-video", {
+  strings: ['Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque odit, culpa, dolorum earum perferendis fuga quae praesentium pariatur deserunt nemo, tempore sunt error. Cumque, cum reprehenderit odit architecto sunt eaque.'],
+  typeSpeed: 40,
+  startDelay: 1000,
+  showCursor: false,
+  loop: false
+});
+
 function obtenerFecha(){
 
     var fecha = new Date();
@@ -13,10 +25,9 @@ function obtenerFecha(){
     return ( dias[num_dia] + " " + dia + " de " + meses[mes] + " de " + anio);
 
   }
+
 //var fecha = obtenerFecha();
-
-//$(".bg-video").html(fecha);
-
+//console.log(fecha);
 
 $(".progress").click(function(){
 
@@ -50,7 +61,11 @@ $(".progress").click(function(){
       break;
   }
 
+ 
+
 });
+
+
 
 /*
 $(window).scroll(function(){
