@@ -1,9 +1,16 @@
 AOS.init();
 
- //tiped.js
 
+  $(".back").click(function(){
   
-  
+    $("html").addClass("animate__fadeOutRight")
+
+    $(location).attr('href', '../index.html')
+  })
+
+
+
+ //tiped.js
  var typed = new Typed("#txt-video", {
   strings: ['Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque odit, culpa, dolorum earum perferendis fuga quae praesentium pariatur deserunt nemo, tempore sunt error. Cumque, cum reprehenderit odit architecto sunt eaque.'],
   typeSpeed: 40,

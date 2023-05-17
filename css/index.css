@@ -123,3 +123,37 @@ nav ul li a{
     margin: 20px !important;
 }
 /* Keyframes*/
+@media (min-width: 700px) {
+    .back i{
+
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .parrafo{
+        width: 80%;
+        text-align: center;
+    }
+    .img-fondo{
+        max-width: 700px;
+    }
+    .img-front{
+        max-width: 700px;
+
+    }
+   .menu{
+       width: 100vw;
+    }
+    .nav{
+        display: flex;
+        
+    }
+    
+    .foto-section3{
+        display: flex;
+        justify-content: space-around !important;
+    }
+}
