@@ -1,0 +1,22 @@
+{
+  "name": "proyectocv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoNardelli84/cv.git"
+  },
+  "author": "Leonel Nardelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeoNardelli84/cv/issues"
+  },
+  "homepage": "https://github.com/LeoNardelli84/cv#readme",
+  "devDependencies": {
+    "sass": "^1.62.1"
+  }
+}

@@ -1,0 +1,64 @@
+@import '../basics/colors';
+
+.menu {
+    animation-duration: 5s;
+    background-color: $bg-color;
+    box-shadow: 10px 15px 12px $bg-color;
+}
+
+nav{
+    ul{
+        display: flex;
+        justify-content: center;
+        li{
+            a{
+                color: $a-color !important;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: bolder;
+                padding: 5px 5px !important;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.info{
+    text-align: center;
+    animation-duration: 3s;
+    padding: 10px !important;
+    p{
+        text-align: left;
+        text-shadow: 1px 1px 2px $p-shadow-color; 
+        animation-duration: 2.5s;
+    }
+    img{
+        max-width: 100%;
+        animation-duration: 3.5s;
+    } 
+}
+
+.section2{
+    height: 70vh;
+    margin-top: 25px;
+}
+
+.info2{
+    animation-duration: 2s;
+    img{
+        width: 100%;
+        height: 100%;
+        animation-duration: 3s;
+    }
+}
+
+.foto-section3{
+    animation-duration: 3s;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    img{
+        width: 100px;
+    }
+}
+
+

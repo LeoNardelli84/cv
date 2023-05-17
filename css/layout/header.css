@@ -1,0 +1,21 @@
+header {
+  padding-top: 20px !important;
+}
+
+.perfil-foto {
+  display: flex;
+  justify-content: center;
+  animation-duration: 5s;
+}
+.perfil-foto img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.perfil-nombre {
+  display: flex;
+  justify-content: center;
+  animation-duration: 4s;
+}
+
+/*# sourceMappingURL=header.css.map */

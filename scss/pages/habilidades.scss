@@ -1,0 +1,50 @@
+
+@import '../basics/colors';
+@import '../layout/footer.scss';
+
+.back{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 25px;
+    i{
+        font-size: 30px;
+    }
+}
+
+main{
+    margin-top: 40px;
+}
+
+.bg-video{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    video{
+        width: 380px;
+        opacity: 50%;
+    }
+}
+
+.txt-video{
+    z-index: 1;
+    position: absolute;
+    width: 100vw;
+    padding: 10px;
+    p{
+        text-shadow: 3px 3px 5px white;
+        font-family: 'start';
+        font-weight: 300;
+        color: $p-color;
+    }
+}
+
+.progress{
+    margin-bottom:10px !important;
+    height: 35px !important;
+}
+
+

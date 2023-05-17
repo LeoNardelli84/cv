@@ -1,0 +1,32 @@
+
+// utilities
+@import 'utilities/functions.scss';
+@import 'utilities/mixins.scss';
+@import 'utilities/variables.scss';
+
+//basic
+@import 'basics/_reset';
+@import 'basics/_colors';
+@import 'basics/_typography';
+
+//components
+@import 'components/arrow-down.scss';
+
+//keyframes
+@import 'keyframes/index.scss';
+
+//layout
+@import 'layout/footer.scss';
+@import 'layout/main.scss';
+@import 'layout/header.scss';
+
+//pages
+@import 'pages/index.scss';
+@import 'pages/idiomas.scss';
+@import 'pages/hobbies.scss';
+@import 'pages/habilidades.scss';
+@import 'pages/estudios.scss';
+@import 'pages/contacto.scss';
+
+ 
+
