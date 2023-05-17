@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -6,6 +7,10 @@
 
 .container-fluid {
   padding: 0px !important;
+}
+
+ul {
+  list-style: none;
 }
 
 .arrow {
@@ -49,6 +54,45 @@
   .foto-section3 {
     display: flex;
     justify-content: space-around !important;
+  }
+}
+@media (min-width: 700px) {
+  .back {
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 35px;
+  }
+  .back i {
+    font-size: 60px;
+    height: 40px;
+    margin-left: 20px;
+  }
+  .bg-video {
+    display: flex;
+    justify-content: center;
+  }
+  .bg-video video {
+    width: 120vw;
+  }
+  .txt-video {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .habs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .barras {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+  .progress {
+    height: 43px !important;
+    margin-bottom: 30px !important;
   }
 }
 .footer {
@@ -142,18 +186,9 @@ nav ul li a {
   width: 100px;
 }
 
-.footer {
-  width: 100%;
-  height: 90px;
-  background-color: rgb(71, 71, 71);
-}
-.footer .redes {
-  display: flex;
-  justify-content: center;
-}
-.footer .redes img {
-  width: 50px;
-  margin: 20px !important;
+.idiomas {
+  height: 100vh;
+  padding: 15px;
 }
 
 .back {
@@ -199,6 +234,96 @@ main {
 .progress {
   margin-bottom: 10px !important;
   height: 35px !important;
+}
+
+.barras {
+  padding: 30px;
+}
+
+.barra-1 {
+  animation-duration: 3s;
+}
+
+.barra-2 {
+  animation-duration: 3.1s;
+}
+
+.barra-3 {
+  animation-duration: 3.2s;
+}
+
+.barra-4 {
+  animation-duration: 3.3s;
+}
+
+.barra-5 {
+  animation-duration: 3.4s;
+}
+
+.barra-6 {
+  animation-duration: 3.5s;
+}
+
+.barra-7 {
+  animation-duration: 3.6s;
+}
+
+.barra-8 {
+  animation-duration: 3.7s;
+}
+
+.fecha p {
+  font-family: "dancing script";
+  font-size: 14px;
+}
+
+.certificados img {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 20px;
+  box-shadow: 10px 5px 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form {
+  max-width: 500px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 10px !important;
+}
+.form input {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+text-area {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#btn-enviar {
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.img-contacto {
+  width: 100vw;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 10px !important;
+}
+.img-contacto img {
+  width: 100%;
+  max-width: 500px;
 }
 
 /*# sourceMappingURL=app.css.map */

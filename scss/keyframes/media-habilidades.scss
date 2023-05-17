@@ -1,0 +1,41 @@
+@media (min-width: 700px) {
+    .back{
+        height: 50px;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 35px;
+        i{
+            font-size: 60px;
+            height: 40px;
+            margin-left: 20px;
+        }
+    }
+
+    .bg-video{
+        display: flex;
+        justify-content: center;
+        video{
+            width: 120vw;
+        }
+    }
+    .txt-video{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .habs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .barras{
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+    .progress{
+        height: 43px !important;
+        margin-bottom: 30px !important;
+    }  
+
+}

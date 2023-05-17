@@ -1,3 +1,9 @@
-
+.certificados img {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 20px;
+  box-shadow: 10px 5px 10px;
+}
 
 /*# sourceMappingURL=estudios.css.map */
